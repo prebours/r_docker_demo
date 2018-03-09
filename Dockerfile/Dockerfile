@@ -26,3 +26,4 @@ ENV REPOS=https://cloud.r-project.org
 
 RUN R -e "install.packages(c('roxygen2', 'testthat', 'stringr', 'dplyr', 'DBI', 'tidyr', 'stringi', 'stringr', 'lubridate', 'magrittr', 'digest', 'tools', 'R.utils', 'devtools', 'rworldmap', 'spam', 'XLConnectJars', 'XLConnect', 'htmltools', 'ggthemes', 'gtable', 'ggplot2', 'plotly', 'DT', 'rgexf', 'DiagrammeR', 'googleVis', 'rmarkdown', 'pander', 'zoo', 'RMySQL', 'RPostgreSQL', 'threejs', 'shiny', 'shinyjs', 'rmarkdown', 'shinydashboard', 'httr', 'jsonlite', 'curl', 'readr', 'rJava', 'ggmap', 'R6', 'sp', 'geosphere', 'leaflet', 'maptools', 'whisker', 'pryr', 'viridis', 'openssl', 'rvest', 'purrr', 'compare', 'tibble', 'googlesheets', 'XML', 'mapproj', 'readxl', 'Cairo', 'checkmate', 'foreach', 'doSNOW', 'snow', 'feather', 'ISOcodes', 'iptools'), repos='$REPOS')"
 
+CMD ["R"]
